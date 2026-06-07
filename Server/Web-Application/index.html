@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NA-WirelessMouse64</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: none;">
+    <center>
+    <button onclick="start()" class="rlcB" id="rlcB">Tap here to start</button>
+    <div id="entirePage" style="display: none;">
+    <div id="output" class="acc">Accelerometer X,Y,Z Values<br>Start to show Values</div>
+    <div class="mouseButtons" id="mouseButtons">
+    <div class="rlc" id="lc"><center>Left Click</center></div>
+    <div class="wheel" id="wheel">
+        ____<br>____<br>____
+    </div>
+    <div class="rlc" id="rc"><center>Right Click</center></div>
+    </div>
+
+    <label class="switch">
+        <div class="accCh" id="accCh">Accelerometer-Based</div>
+        <input type="checkbox" id="checkBoxMouseBasedType">
+        <span class="sliderCheckBox"></span>
+        <div class="touchPaddCh" id="touchPaddCh">Touchpad-Based</div>
+    </label>
+
+    <br>
+    <div class="mouseSettings">
+        <input type="range" id="mouseSpeed" min="0", max="300" value="35"><p>Mouse Speed <span id="mouseSpeedValue">35</span></p>
+    </div>
+    <div id="touchMouse">
+    <div class="touchpad" id="touchpad">Move your finger here...</div>
+    <div class="coords" id="coords">X: 0, Y:0</div>
+    </div>
+
+    <div class="latencyTestDiv">
+    <button onclick="startLatencyTest()" class="latencyTest" id="latencyTest">Start latency test</button>
+    <div class="latencyValue" id="latencyValue">?ms</div>
+    </div>
+
+    </center>
+
+    <div id="unavailableOverlay" style="display: none;">
+        <center>
+        Single Mouse Controller option is turned ON.
+        <br>
+        Therefore, Mouse controller is currently unavailable because another device has priority access. Please wait until it becomes available.
+        </center>
+    </div>
+
+    <div id="leavedPage" style="display: none;">
+        <center>
+        You leaved the web page.
+        <br>
+        Please reload the web page in order to continue.
+        </center>
+    </div>
+
+    <div id="mouseArea" style="display: none;">
+        <center>
+            <br>
+            You are using an external mouse.
+            <br>
+            You can use it as a mouse for the PC.
+            <br>
+            Move your mouse and use it here.
+            <br>
+            Unplug the external mouse and touch the screen in order to use the web application normal features.
+            <br>
+            Click anywhere to start using the external mouse.
+        </center>
+    </div>
+
+    <div id="cursor"></div>
+    <div id="instruction"></div>
+    <script src="handling.js"></script>
+
+</body>
+</html>
