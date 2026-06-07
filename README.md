@@ -46,11 +46,15 @@ Then you can use it as an ordinary exe program.
 <br>
 Note that this works for `Windows 10+ 64-bit`.
 
+<img width="622" height="143" alt="Extracted files" src="https://github.com/user-attachments/assets/67dce81f-469b-48a4-8a60-3ab362ccce24" />
+
 ## Version
 - Current version: 1.0.0
 
 ## Software's User interface
 When you open the software, you are going to see this interface:
+
+<img width="443" height="762" alt="Not Running server softwate screenshot" src="https://github.com/user-attachments/assets/870e73ef-5946-476c-8d96-1fdc01a2a4c9" />
 
 - On top, there is a **server status** text label, it tells you whether the server is running or not and also shows you the URL of the web-application.
 - Then, there is a section where it shows you 3 options:
@@ -66,7 +70,13 @@ When you open the software, you are going to see this interface:
 3. **Save changes**, every change you make in any option won't be saved unless you click this button.
 
 - Then, there is the **Connected devices** section, it shows you in a table the currently connected devices, where you can also click on any shown device to whether block it or kick it out of the server. You need to know also that if there is a device shown in a green background, it's the device that currently has the priority access.
+  
+<img width="399" height="195" alt="connected device info" src="https://github.com/user-attachments/assets/710cbea9-1296-4562-a95c-cc9668f8eb1c" />
+
 - Then, there is **Blocked & Kicked devices** section, it shows you in table all the blocked and kicked devices, note that you can also click on any device and chose whether to unblock (if blocked) it or to restore its access to the server (if kicked).
+
+<img width="400" height="197" alt="blocked device info" src="https://github.com/user-attachments/assets/0e784b85-5f4c-4ece-b378-4a67068f0fc6" />
+
 - Then, there is the **Visits log**, it shows you all the visits made by any device that has tried to access the web-application.
 - Then, there is **Requests signals & Other** section, it has 5 features:
 
@@ -92,12 +102,18 @@ When you open the web-application, you are going to encounter this interface:
 - Then, you will see the touchpad and it's x and y values.
 - Then, you will see the `Start latency test` button, which makes you test your network speed in terms of transferring data, in details, it sends a request from your mobile phone to the server and waits for the response, once it receives a response, it calculates the time that this process had taken. Higher values of milliseconds means slower connection while smaller values means faster connection, and it really depends on how good your Wi-Fi router your PCa and your mobile phone.
 
+<img width="340" height="665" alt="web interface" src="https://github.com/user-attachments/assets/c3d1c213-f91f-4423-ba8c-dc133d811915" />
+
+<img width="250" height="62" alt="latency test" src="https://github.com/user-attachments/assets/912decbc-c5ce-4682-911a-2ba848c8896a" />
+
 ## How to use?
 
 1. Open the software on your PC.
 2. Click on start server button.
 3. After starting the server, open any internet browser on your mobile phone and enter the web-application URL shown in the software **"use the one that has an IP address, the one that has localhost only works for you PC"**.
 4. Once you are in the web-application, it will ask you for your server access key, enter it, and use the full web-application.
+
+<img width="440" height="763" alt="running server software screenshot" src="https://github.com/user-attachments/assets/dbe5ccbb-6c07-4039-a130-c080b9ce5c6c" />
 
 ## The 3 methods that you can use
 In this software, there is 3 possible ways of using your mobile phone as a mouse for your PC.
@@ -107,11 +123,15 @@ In this software, there is 3 possible ways of using your mobile phone as a mouse
 3. **OTG Mouse-to-PC control**, this method can turn your wired physical mouse into a wireless Wi-Fi mouse, just get an OTG and connect your wired mouse to your mobile phone using it and open the web-application and it will automatically detect it and allow you to use it as a wireless mouse for your PC. **"Most recommended"**.
 
 ## Additional notes
+- This software requires JAVA installed on your device in order to work properly.
 - When you use the OTG Mouse-to-PC control method, you might need 2 different physical mouses, one connected to the PC so that the PC can show a cursor, and another that connected to your phone that can move this cursor. In the incoming updates I will hopefully fix this by adding a virtual mouse, so you can only use one mouse that is connected to your mobile phone.
 - This software does not support most of the games. Because this software can move the mouse and simulate clicks at the operating system level (GUI automation). However, most games do not read these events the same way normal desktop applications do. Instead, they often use Raw Input / DirectInput / low-level drivers, which bypass standard OS-generated events. Because of this, The software input may be ignored, filtered, or treated as synthetic input by games, so it does not reliably control gameplay. 
 - If 3 mobile phones are connected to the web-application and the single mouse controller feature is ON, only the device that joined first - has priority access - will be able to use the full web-application, others will have to wait until this device leaves the web-application, then, the priority will move to the device that joined right after this device, and so.
 - When you leave the browser opened tap, the web-application will disconnect you automatically and you will have to restart the web page.
 - The web-application is using a self-signed ssl-certification, which may make you encounter a warning in your web browser that says `Your connection is not private`, if this happens, just ignore it and press `Advanced -> Procced`.
+
+<img width="340" height="652" alt="connection is not private" src="https://github.com/user-attachments/assets/887c6a5b-41d4-4b04-adfc-66f3a50dd907" />
+
 - Do NOT modify anything in the program files to avoid unexpected errors.
 
 - Developed by Ayman Saied -
