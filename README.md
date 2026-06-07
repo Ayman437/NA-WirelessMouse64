@@ -190,7 +190,7 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.serialization import pkcs12
 ```
 
-- To run the software run the NA-WirelessMouse64.py file or use this command `python NA-WirelessMouse64.py`.
+- To run the software, run the NA-WirelessMouse64.py file or use this command `python NA-WirelessMouse64.py`.
 - The source code of this software is converted into an exe program using pyinstaller.
 - WebServer.jar file is the compiled version of WebServer.java and MouseMover.java.
-- On every server startup, the software creates a new keystore.p12 file with a validation time of 10 years, that mean the https protocol will work unless you leave the server running for more than 10 years, then you will have to restart it :). 
+- On every server startup, the software creates a new keystore.p12 file with a validation time of 10 years, that means the https protocol will work unless you leave the server running for more than 10 years, then you will have to restart it :). 
