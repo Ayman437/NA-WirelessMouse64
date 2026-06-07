@@ -40,7 +40,7 @@ NA-WirelessMouse64/
 
 ## Instructions for normal user
 
-To download the software, download the `exe_program.rar` file and extract it
+To download the software, download the `exe_program.rar` file and extract it.
 <br>
 Then you can use it as an ordinary exe program.
 <br>
