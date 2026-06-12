@@ -59,7 +59,7 @@ When you open the software, you are going to see this interface:
 - On top, there is a **server status** text label, it tells you whether the server is running or not and also shows you the URL of the web-application.
 - Then, there is a section where it shows you 3 options:
 
-1. **Server port**, you can the port that the server uses, make sure that this port is not used by any other service, default is 3001.
+1. **Server port**, you can choose the port that the server uses, make sure that this port is not used by any other service, default is 3001.
 2. **Server access key**, you can make your own access key for the web-application, every device that visits the web-application is asked for access key in order to have access to the full web-application, default is admin.
 3. **Clear logs on server startup**, toggling this option on will make the server automatically clear logs files, which are `ServerOutputs.txt` and `LastVisitsLog.txt`, they exist at `NA-WirelessMouse64/Server/Info/`.
 
